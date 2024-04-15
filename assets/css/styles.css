@@ -93,8 +93,8 @@ input{
 	border: 0;
 	border-bottom: thin solid var(--color-text-acc);
 	color: var(--color-text-pri);
-	font-size: 0.8em;
-	height: 3.5em;
+	font-size: 2em;
+	height: 2.5em;
 	transition: all 0.4s ease;
 	width: 100%;
 }
