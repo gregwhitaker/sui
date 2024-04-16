@@ -33,7 +33,3 @@ function loadFunctions() {
   date();  
   greet();
 }
-
-$('keywords').each(function() {
-  this.reset();
-});

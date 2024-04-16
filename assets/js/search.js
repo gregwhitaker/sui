@@ -57,6 +57,9 @@ function search(text) {
     if (text[0] === '/') {
         if (text.indexOf(' ') > -1) {
             switch (option) {
+                case "c":
+                    window.location = "https://amfament.atlassian.net/wiki/search?text=" + subtext;
+                    break;
                 case "d":
                     window.location = "https://duckduckgo.com/?q=" + subtext;
                     break;
@@ -65,6 +68,9 @@ function search(text) {
                     break;
                 case "hn":
                     window.location = "https://hn.algolia.com/?q=" + subtext;
+                    break;
+                case "j":
+                    window.location = "https://amfament.atlassian.net/issues/?jql=id%20%3D%20" + subtext;
                     break;
                 case "r":
                     window.location = "https://www.reddit.com/search?q=" + subtext;

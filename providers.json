@@ -1,8 +1,10 @@
 {
     "providers" : [
+        {"name":"Confluence","url":"https://amfament.atlassian.net/wiki/search?text=","prefix":"/c"},
         {"name":"Duck Duck Go","url":"https://duckduckgo.com/?q=","prefix":"/d"},
-        {"name":"Google","url":"https://www.google.com/?q=","prefix":"/d"},
+        {"name":"Google","url":"https://www.google.com/?q=","prefix":"/g"},
         {"name":"Hacker News","url":"https://hn.algolia.com/?q=","prefix":"/hn"},
+        {"name":"Jira","url":"https://amfament.atlassian.net/issues/?jql=id%20%3D%20","prefix":"/j"},
         {"name":"Reddit","url":"https://www.reddit.com/search?q=","prefix":"/r"},
         {"name":"StackOverflow","url":"https://stackoverflow.com/search?q=","prefix":"/s"},
         {"name":"Youtube","url":"https://www.youtube.com/results?search_query=","prefix":"/y"}
