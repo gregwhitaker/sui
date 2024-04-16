@@ -34,4 +34,6 @@ function loadFunctions() {
   greet();
 }
 
-
+$('keywords').each(function() {
+  this.reset();
+});
